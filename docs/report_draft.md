@@ -84,10 +84,10 @@
 
 | Version | File | Main Change | CV AUC | Public Score | Private Score | Screenshot |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | `submission1_logreg.csv` | Logistic Regression baseline | 0.78901 +/- 0.01392 | 0.78157 | 0.79105 | `docs/screenshots/kaggle_submissions.png` |
-| 2 | `submission2_xgb.csv` | XGBoost nonlinear model | 0.81902 | 0.84310 | 0.85785 | `docs/screenshots/kaggle_submissions.png` |
-| 3 | `submission3_ensemble.csv` | LightGBM + XGBoost blending | 0.81928 | 0.84233 | 0.85698 | `docs/screenshots/kaggle_submissions.png` |
-| 4 | `submission4_sparse_logreg.csv` | Sparse all-pairs Logistic Regression | 0.87908 +/- 0.01208 | 0.90029 | 0.89455 | 建議補截圖 |
+| 1 | `submission1_logreg.csv` | Logistic Regression baseline | 0.78901 +/- 0.01392 | 0.78157 | 0.79105 | `docs/screenshots/kaggle_submissions_with_sparse_logreg.png` |
+| 2 | `submission2_xgb.csv` | XGBoost nonlinear model | 0.81902 | 0.84310 | 0.85785 | `docs/screenshots/kaggle_submissions_with_sparse_logreg.png` |
+| 3 | `submission3_ensemble.csv` | LightGBM + XGBoost blending | 0.81928 | 0.84233 | 0.85698 | `docs/screenshots/kaggle_submissions_with_sparse_logreg.png` |
+| 4 | `submission4_sparse_logreg.csv` | Sparse all-pairs Logistic Regression | 0.87908 +/- 0.01208 | 0.90029 | 0.89455 | `docs/screenshots/kaggle_submissions_with_sparse_logreg.png` |
 
 ## 5. 改進流程與原因
 
@@ -111,9 +111,9 @@
 
 ## 7. 截圖紀錄
 
-前三次 Kaggle submission 的截圖紀錄如下，第四次高分 submission 建議另外補截圖：
+Kaggle submission 與調參結果截圖紀錄如下：
 
-![Kaggle submission scores](screenshots/kaggle_submissions.png)
+![Kaggle submission scores](screenshots/kaggle_submissions_with_sparse_logreg.png)
 
 ## 8. 繳交內容
 
